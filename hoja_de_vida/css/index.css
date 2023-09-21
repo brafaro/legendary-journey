@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+}
+
+
+.name {
+    width: 100%;
+    height: 300px;
+    background: #019ca1;
+    transform: skewY(-5deg);
+}
+
+.name .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left:25%;
+}
+
+.name .content .p-1 {
+    color: blue;
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+    font-size: 55px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+
+.name .content .p-2 {
+    color: blue;
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+        
+}
+
+.name .img {
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    transform: skewY(5deg);
+    overflow: hidden;
+
+}
+
+.name .img img {
+    width: 100px;
+    height: 120px;
+}
+
+
+.info {
+    width: 90%;
+    height: auto;
+    background:  #019ca1;
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.info .tituloSeccion {
+    color: white;
+    font-family: 'Dancing Script';
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px burlywood solid;
+ 
+}
+
+.info .tituloInfo {
+    color: burlywood;
+    font-family: 'Dancing Script';
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+
+.info .infoInfo {
+    color: #392f5a;
+    font-family: 'Dancing Script';
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    
+}
